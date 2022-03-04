@@ -1,0 +1,49 @@
+<?php
+session_start();
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="container">
+      <div class="header clearfix">
+ 
+        <h3 class="text-muted text-center">enterprise</h3>
+      </div>
+
+      <div class="jumbotron text-center">
+        <h3 class="display-3">current data</h3>
+        <p class="lead">budget: <span id="current-budget"></span>$</p>
+        <p class="lead" >active income: <span id="current-active-income"></span></p>
+        <p class="lead">passive income: <span id="current-passive-income"></span></p>
+      </div>
+      <p><a class="btn btn-lg btn-success center-block" id="work-btn">Work</a></p>
+      <div class="row" id="income-container">
+        <div class="col-xs-6 quals-container text-center">
+         <h3 class="text-muted text-center">Active income</h3>
+          
+        </div>
+        
+        
+        <div class="col-xs-6 invs-container text-center">
+         <h3 class="text-muted text-center">Passive income</h3>
+          
+        </div>
+      </div>
+       
+        
+      <footer class="footer">
+        <p>&copy; Company 2022</p>
+      </footer>
+
+    </div> <!-- /container -->
+           
+            <script src="scripts/main.js"></script>
+</body>
+</html>

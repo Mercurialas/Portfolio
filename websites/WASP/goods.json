@@ -1,0 +1,19 @@
+{
+  "1234": {
+    "name": "X-1",
+    "cost": 299.99,
+    "order": 3,
+    "img" : "89f07e611403dec8033f20be637d72cf.png"
+  },
+  "1235": {
+    "name": "Strat",
+    "cost": 149.99,
+    "order": 5,
+    "img" : "full_preview__1_7.png"
+  },
+  "1236": {
+    "name": "Jackson",
+    "cost": 589.99,
+    "order": 1,
+    "img" : "aarz781xbf48w848888sokkkw.png"
+  }

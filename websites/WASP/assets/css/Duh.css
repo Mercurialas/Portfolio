@@ -1,0 +1,80 @@
+html{
+    overflow: hidden;
+}
+.logo{
+    margin-left: 232px;
+    margin-top: 11px;
+}
+.block1{
+    position: relative;
+    left: 600px;
+    top: 150px;
+}
+
+.elect{
+   
+    text-align: center;
+    cursor: pointer;
+position: relative;
+    right: 190px;
+     transition: 5s all;
+    box-shadow: 20px;
+    text-decoration: none;
+}
+
+.elect:hover img{
+   transform: scale(1.1);
+}
+
+.bass{
+position: relative;
+left: -115px;
+     cursor: pointer;
+    text-decoration: none;
+
+}
+
+.bass:hover img{
+    transform: scale(1.1)
+}
+        
+        
+.ak{
+position: relative;
+
+left: -40px;
+     cursor: pointer;
+    text-decoration: none;
+
+    }
+    
+.ak:hover img{
+    transform: scale(1.1)
+}
+
+.par1{
+    font-family: fantasy;
+    color: white;
+    font-size: 24px;
+    position: relative;
+    top: 160px;
+    left: 505px;
+}
+
+.par2{
+    font-family: fantasy;
+    color: white;
+    font-size: 24px;
+    position: relative;
+    top: 160px;
+    left: 760px;
+}
+
+.par3{
+     font-family: fantasy;
+    color: white;
+    font-size: 24px;
+    position: relative;
+    top: 160px;
+    left: 1030px;
+}
